@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"> 
+
+  <title>ТехноМаг</title>
+</head>
+<body>
+  <header>  
+  <h1 style="text-align: center;">Добро пожаловать в ТехноМаг!</h1>
+  <p style="text-align: center;">Мы рады видеть вас в нашем магазине электроники</p>
+<a href="cart.html">Корзина</a>
+</header>
+
+
+
+<section class = "catalog">
+  <h2>Каталог товаров</h2>
+  <div class="catalog_grid"> 
+    <article class="product_card" data-testid="laptop" data-name="Ноутбук ABC" data-price="49999">
+      <img src="images/laptop.jpg" alt="laptop">
+      <h3>Ноутбук ABC</h3>
+      <p>Описание ноутбука ABC.</p>
+      <p>Цена: 49999 руб.</p>
+      <button class="buy-button" data-testid="buy-laptop" data-name="Ноутбук ABC" data-price="49999">Купить</button>
+    </article>
+
+    <article class="product_card" data-testid="headphones" data-name="Наушники XYZ" data-price="29999">
+      <img src="images/headphones.jpg" alt="headphones">
+      <h3>Наушники XYZ</h3>
+      <p>Описание наушников XYZ.</p>
+      <p>Цена: 29999 руб.</p>
+      <button class="buy-button" data-testid="buy-headphones" data-name="Наушники XYZ" data-price="29999">Купить</button>
+    </article>
+
+    <article class="product_card" data-testid="keyboard" data-name="Клавиатура DEF" data-price="39999">
+      <img src="images/keyboard.jpg" alt="keyboard">
+      <h3>Клавиатура DEF</h3>
+      <p>Описание клавиатуры DEF.</p>
+      <p>Цена: 39999 руб.</p>
+      <button class="buy-button" data-testid="buy-keyboard" data-name="Клавиатура DEF" data-price="39999">Купить</button>
+    </article>
+  </div>
+</section>
+  <footer>
+    <p>© 2026 ТехноМаг. Все права защищены.</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+ 
+</html>
