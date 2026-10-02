@@ -232,6 +232,10 @@ background: #fff;
   cursor: pointer;
 }
 
+.contacts {
+  flex-direction: row;
+}
+
 @keyframes fadeInUp {
   to {
     opacity: 1;
