@@ -4,53 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css"> 
-
   <title>ТехноМаг</title>
 </head>
 <body>
-  <header>  
-  <article class="text-align: center;"  data-testid="header" data-name="ТехноМаг">  </article> 
-  <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
-  <a class="head-1" alt="catalog" href="catalog.html">Каталог товаров </a>
-  <a class="head-2" alt="connection" href="connection.html">Связь с нами</a>
+  <header>
+  
+    <a href="index.html" class="logo-link" data-testid="logo">
+      <img src="images/logo.png" alt="Лого ТехноМаг" class="logo-img">
+    </a>
 
-<hr> </hr>
-</header>
+    <nav class="main-nav">
+      <a href="catalog.html" class="nav-link">Каталог товаров</a>
+      <a href="contacts.html" class="nav-link">Связь с нами</a>
+      <a href="about.html" class="nav-link">О нас</a>
+    </nav>
 
+    <div class="basket" href="cart.html">🛒</div>
+  </header>
 
-  <div class="catalog-grid"> 
-    <article class="product-card" data-testid="laptop" data-name="Ноутбук ABC" data-price="49999">
-      <img src="images/laptop.jpg" alt="laptop" class="product-image">
-      <h3>Ноутбук NacBook</h3>
-      <p>Описание ноутбука NacBook. 
-    <p>NacBook хорошо справляется как с повседневными делами</p>
-      </p>
-      <span class="price">49 999</span>
-      <button class="buy-button" data-testid="buy-laptop" data-name="Ноутбук NacBook" data-price="49999">Купить</button>
-    </article>
+  <main>
+    <div class="head-grid">
+       <h1>Лучшие гаджеты для тебя</h1>
+    </div>
 
-    <article class="product-card" data-testid="headphones" data-name="Наушники XYZ" data-price="29999">
-      <img src="images/headphones.jpg" alt="headphones" class="product-image">
-      <h3>Наушники XYZ</h3>
-      <p>Описание наушников Som.</p>
-      <p>Som беспроводные накладные наушники. Есть микрофон, защита от влаги (IPX4), долгое время работы (до 50 часов), поддержка голосовых ассистентов.</p>
-      <span class="price">29 999</span>
-      <button class="buy-button" data-testid="buy-headphones" data-name="Наушники XYZ" data-price="29999">Купить</button>
-    </article>
+    <hr>
 
-    <article class="product-card" data-testid="keyboard" data-name="Клавиатура DEF" data-price="39999">
-      <img src="images/keyboard.jpg" alt="keyboard" class="product-image">
-      <h3>Клавиатура DEF</h3>
-      <p>Описание клавиатуры DEF.</p>
-      <p>DEF - это механическая клавиатура с RGB-подсветкой, поддержкой макросов и удобной эргономичной конструкцией.</p>
-      <span class="price">39 999</span>
-      <button class="buy-button" data-testid="buy-keyboard" data-name="Клавиатура DEF" data-price="39999">Купить</button>
-    </article>
-  </div>
-</section>
-  <footer class="footer"> © 2026 ТехноМаг. Все права защищены.
+    <div class="catalog-grid"> 
+      <article class="product-card">
+        <img src="images/laptop.jpg" alt="Ноутбук" class="product-image">
+        <h3>Ноутбук NacBook</h3>
+        <p>NacBook хорошо справляется с повседневными делами.</p>
+        <span class="price">49 999 ₽</span>
+        <button class="buy-button">Купить</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/headphones.jpg" alt="Наушники" class="product-image">
+        <h3>Наушники Som</h3>
+        <p>Беспроводные наушники с защитой от влаги.</p>
+        <span class="price">29 999 ₽</span>
+        <button class="buy-button">Купить</button>
+      </article>
+
+      <article class="product-card">
+        <img src="images/keyboard.jpg" alt="Клавиатура" class="product-image">
+        <h3>Клавиатура DEF</h3>
+        <p>Механическая клавиатура с RGB-подсветкой.</p>
+        <span class="price">39 999 ₽</span>
+        <button class="buy-button">Купить</button>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer"> 
+    &copy; 2026 ТехноМаг. Все права защищены.
   </footer>
-<script src="script.js"></script>
 </body>
- 
 </html>
